@@ -1,0 +1,49 @@
+version: "3.1"
+ 
+rules:
+- rule: Respond to greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+
+- rule: Respond to ask_howareyou
+  steps:
+  - intent: ask_howareyou
+  - action: utter_ask_howareyou
+
+
+- rule: Respond to goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+ 
+- rule: Answer course overview
+  steps:
+  - intent: ask_course_overview
+  - action: utter_ask_course_overview
+ 
+- rule: Answer tools question
+  steps:
+  - intent: ask_tools
+  - action: utter_ask_tools
+ 
+- rule: Answer what is Rasa
+  steps:
+  - intent: ask_what_is_rasa
+  - action: utter_ask_what_is_rasa
+ 
+- rule: Answer what is NLU
+  steps:
+  - intent: ask_what_is_nlu
+  - action: utter_ask_what_is_nlu
+ 
+- rule: Answer assessment question
+  steps:
+  - intent: ask_assessment
+  - action: utter_ask_assessment
+ 
+- rule: Answer what is chatbot
+  steps:
+  - intent: ask_what_is_chatbot
+  - action: utter_ask_what_is_chatbot

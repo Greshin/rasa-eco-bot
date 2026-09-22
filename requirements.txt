@@ -1,0 +1,11 @@
+# ===============================================================
+
+
+rasa==3.6.21
+
+# See the protobuf table above before changing this.
+streamlit==1.31.1
+
+# Pinned so the image is reproducible
+requests==2.31.0
+

@@ -1,0 +1,9 @@
+version: "3.1"
+ 
+stories:
+- story: greet and ask about course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_course_overview
+  - action: utter_ask_course_overview

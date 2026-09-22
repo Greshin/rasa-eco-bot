@@ -1,0 +1,52 @@
+version: "3.1"
+ 
+intents:
+  - greet
+  - goodbye
+  - ask_course_overview
+  - ask_tools
+  - ask_what_is_rasa
+  - ask_what_is_nlu
+  - ask_assessment
+  - ask_what_is_chatbot
+  - ask_howareyou
+ 
+responses:
+  utter_greet:
+    - text: "Hello! I am your course companion. How can I help you today?"
+
+  utter_ask_howareyou:
+    - text: "I am doing great! How about you?"
+ 
+  utter_goodbye:
+    - text: "Goodbye! Good luck with your studies!"
+ 
+  utter_ask_course_overview:
+    - text: "This course covers advanced conversational UI design and chatbot
+             development. You will learn to build sophisticated chatbots using AI,
+             focusing on design principles, NLU, and real-world deployment."
+ 
+  utter_ask_tools:
+    - text: "We will work with Rasa, Python, Streamlit, FastAPI, and Docker
+             throughout the course."
+ 
+  utter_ask_what_is_rasa:
+    - text: "Rasa is an open-source framework for building conversational AI chatbots.
+             It runs on your own machine, giving you full control over your bot and data."
+ 
+  utter_ask_what_is_nlu:
+    - text: "NLU stands for Natural Language Understanding. It is the part of the bot
+             that figures out what the user means — identifying intents and extracting entities."
+ 
+  utter_ask_assessment:
+    - text: "The course is assessed through practical assignments and a final project.
+             You will design, build, and deploy a working chatbot."
+ 
+  utter_ask_what_is_chatbot:
+    - text: "A chatbot is a software application that simulates human conversation.
+             It understands user input using AI and responds intelligently."
+ 
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

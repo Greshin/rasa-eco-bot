@@ -1,2 +1,13 @@
-rasa-env/
-rasa-env/
+
+models/
+results/
+__pycache__/
+.rasa/
+*.pyc 
+*.db
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg

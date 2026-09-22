@@ -1,0 +1,75 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good afternoon
+    - howdy
+    - cool
+
+- intent: ask_howareyou
+  examples: |
+    - whats up!
+    - hows you day going
+
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - take care
+ 
+- intent: ask_course_overview
+  examples: |
+    - what is this course about?
+    - tell me about this course
+    - what will I learn?
+    - give me an overview of the course
+    - what does this unit cover?
+
+ 
+- intent: ask_tools
+  examples: |
+    - what tools will we use?
+    - which platforms will we work with?
+    - will we use Rasa?
+    - what software do I need?
+    - what chatbot tools are covered?
+ 
+- intent: ask_what_is_rasa
+  examples: |
+    - what is Rasa?
+    - explain Rasa to me
+    - what does Rasa do?
+    - why are we using Rasa?
+    - tell me about the Rasa framework
+ 
+- intent: ask_what_is_nlu
+  examples: |
+    - what is NLU?
+    - what does NLU stand for?
+    - explain natural language understanding
+    - what is natural language understanding?
+    - how does NLU work?
+ 
+- intent: ask_assessment
+  examples: |
+    - how will I be assessed?
+    - what are the assignments?
+    - how is the course graded?
+    - what do I need to submit?
+    - tell me about the assessments
+ 
+- intent: ask_what_is_chatbot
+  examples: |
+    - what is a chatbot?
+    - define chatbot
+    - how does a chatbot work?
+    - what are chatbots used for?
+    - explain conversational AI
+
+
